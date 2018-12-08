@@ -1,0 +1,205 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              
+
+exit_script()
+{
+  ./madcrew
+}
+
+ntpamp()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+          ███╗   ██╗████████╗██████╗                █████╗ ███╗   ███╗██████╗ 
+          ████╗  ██║╚══██╔══╝██╔══██╗              ██╔══██╗████╗ ████║██╔══██╗
+          ██╔██╗ ██║   ██║   ██████╔╝    █████╗    ███████║██╔████╔██║██████╔╝
+          ██║╚██╗██║   ██║   ██╔═══╝     ╚════╝    ██╔══██║██║╚██╔╝██║██╔═══╝ 
+          ██║ ╚████║   ██║   ██║                   ██║  ██║██║ ╚═╝ ██║██║     
+          ╚═╝  ╚═══╝   ╚═╝   ╚═╝                   ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     
+
+                            CODED BY COLAK 
+                     INSTAGRAM : @colak.offical
+
+
+                                                             ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# IP ? "
+read ip
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Proxy,Refer,UserAgent ? "
+read files
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Thread ? "
+read thread
+python ntp-amp.py $ip $files $thread
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+drdos()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+          ██████╗ ██████╗     ██████╗  ██████╗ ███████╗
+          ██╔══██╗██╔══██╗    ██╔══██╗██╔═══██╗██╔════╝
+          ██║  ██║██████╔╝    ██║  ██║██║   ██║███████╗
+          ██║  ██║██╔══██╗    ██║  ██║██║   ██║╚════██║
+          ██████╔╝██║  ██║    ██████╔╝╚██████╔╝███████║
+          ╚═════╝ ╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝
+                       CODED BY COLAK 
+                  INSTAGRAM : @colak.offical                            
+
+                                                             ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# IP ? : "
+read ip
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Port ? : "
+read port
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Proxy,Refer,UserAgent ? : "
+read files
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Thread ? [5] : "
+read thread
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Protocol ? tcp,quake3,source,hl,gs,gs2,mixed : "
+read protocol
+perl drdos.pl $ip $port $files $thread $protocol
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+snmp()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+               ▄████████ ███▄▄▄▄     ▄▄▄▄███▄▄▄▄      ▄███████▄ 
+               ███    ███ ███▀▀▀██▄ ▄██▀▀▀███▀▀▀██▄   ███    ███ 
+               ███    █▀  ███   ███ ███   ███   ███   ███    ███ 
+               ███        ███   ███ ███   ███   ███   ███    ███ 
+             ▀███████████ ███   ███ ███   ███   ███ ▀█████████▀  
+                      ███ ███   ███ ███   ███   ███   ███        
+                ▄█    ███ ███   ███ ███   ███   ███   ███        
+              ▄████████▀   ▀█   █▀   ▀█   ███   █▀   ▄████▀      
+                                                    
+                         CODED BY COLAK 
+                  INSTAGRAM : @colak.offical             
+
+                                                             ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# IP ? : "
+read ip
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Proxy,Refer,UserAgent ? : "
+read files
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Thread ? [10] : "
+read thread
+python snmp.py $ip $files $thread
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+udpflood()
+{
+    clear
+    echo -e " ${BLUE} "
+    echo -e " ${WHITE}
+       :::    ::: :::::::::  :::::::::          :::::::::: :::        ::::::::   ::::::::  ::::::::: 
+      :+:    :+: :+:    :+: :+:    :+:         :+:        :+:       :+:    :+: :+:    :+: :+:    :+: 
+     +:+    +:+ +:+    +:+ +:+    +:+         +:+        +:+       +:+    +:+ +:+    +:+ +:+    +:+  
+    +#+    +:+ +#+    +:+ +#++:++#+          :#::+::#   +#+       +#+    +:+ +#+    +:+ +#+    +:+   
+   +#+    +#+ +#+    +#+ +#+                +#+        +#+       +#+    +#+ +#+    +#+ +#+    +#+    
+  #+#    #+# #+#    #+# #+#                #+#        #+#       #+#    #+# #+#    #+# #+#    #+#     
+  ########  #########  ###                ###        ########## ########   ########  #########              
+                                                    
+                         CODED BY COLAK 
+                  INSTAGRAM : @colak.offical             
+
+                                                             ${WHITE}"
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# IP ? : "
+read ip
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Port ? : "
+read port
+echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# Saniye : "
+read saniye
+perl udpflood.pl $ip $port $saniye
+echo " "
+echo " Enter'a Basarak Devam Edebilirsiniz . . .  "
+read enter
+}
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+clear                   
+echo -e "${WHITE}"
+echo -e "${WHITE}    ███╗   ███╗ █████╗ ██████╗      ██████╗██████╗ ███████╗██╗    ██╗
+    ████╗ ████║██╔══██╗██╔══██╗    ██╔════╝██╔══██╗██╔════╝██║    ██║
+    ██╔████╔██║███████║██║  ██║    ██║     ██████╔╝█████╗  ██║ █╗ ██║
+    ██║╚██╔╝██║██╔══██║██║  ██║    ██║     ██╔══██╗██╔══╝  ██║███╗██║
+    ██║ ╚═╝ ██║██║  ██║██████╔╝    ╚██████╗██║  ██║███████╗╚███╔███╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚══════╝ ╚══╝╚══╝ 
+                                                                 
+    ██╗      █████╗ ██╗   ██╗███████╗██████╗     ██╗  ██╗            
+    ██║     ██╔══██╗╚██╗ ██╔╝██╔════╝██╔══██╗    ██║  ██║            
+    ██║     ███████║ ╚████╔╝ █████╗  ██████╔╝    ███████║            
+    ██║     ██╔══██║  ╚██╔╝  ██╔══╝  ██╔══██╗    ╚════██║            
+    ███████╗██║  ██║   ██║   ███████╗██║  ██║         ██║            
+    ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝         ╚═╝            
+                                                                 
+                     
+                        CODED BY COLAK 
+                  INSTAGRAM : @colak.offical
+
+                                            "
+    echo -e "${LIGHTBLUE}        [1]${WHITE}NTP AMP ${LIGHTBLUE} " 
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [2]${WHITE}DRDOS ${LIGHTBLUE}   "
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [3]${WHITE}SNMP ${LIGHTBLUE}   "
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [4]${WHITE}UDP FLOOD ${LIGHTBLUE}   "
+    echo -e ""
+    echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# "
+    read yourch
+    case $yourch in
+      1) ntpamp ;;
+      2) drdos ;;
+      3) snmp ;;
+      4) udpflood ;;
+      ex) echo "As you Command" ;  exit 1  ;;
+      *) echo "HATALI RAKAM GIRDINIZ" ;
+         echo "Enter Basarak Menuye Dönebilirsiniz . . ." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_input1
+#
+Take_input1
+

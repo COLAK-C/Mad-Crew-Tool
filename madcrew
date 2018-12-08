@@ -1,0 +1,93 @@
+#!/bin/bash
+BLACK='\e[0;30m'
+BLUE='\e[0;34m'
+GREEN='\e[0;32m'
+CYAN='\e[0;36m'
+RED='\e[0;31m'
+PURPLE='\e[0;35m'
+BROWN='\e[0;33m'
+LIGHTGRAY='\e[0;37m'
+DARKGRAY='\e[1;30m'
+LIGHTBLUE='\e[1;34m'
+LIGHTGREEN='\e[1;32m'
+LIGHTCYAN='\e[1;36m'
+LIGHTRED='\e[1;31m'
+LIGHTPURPLE='\e[1;35m'
+YELLOW='\e[1;33m'
+WHITE='\e[1;37m'
+NC='\e[0m'              
+
+exit_script()
+{
+  ./madcrew
+}
+
+layer7()
+{
+    clear
+./layer7
+}
+
+layer4()
+{
+    clear
+./layer4
+}
+
+extra()
+{
+    clear
+python Z.py
+}
+
+exit_script1()
+{
+  exit 1
+}
+
+Take_input1()
+{
+clear
+while :
+do
+clear                   
+echo -e "${WHITE}"
+echo -e "${WHITE}    ███╗   ███╗ █████╗ ██████╗      ██████╗██████╗ ███████╗██╗    ██╗
+    ████╗ ████║██╔══██╗██╔══██╗    ██╔════╝██╔══██╗██╔════╝██║    ██║
+    ██╔████╔██║███████║██║  ██║    ██║     ██████╔╝█████╗  ██║ █╗ ██║
+    ██║╚██╔╝██║██╔══██║██║  ██║    ██║     ██╔══██╗██╔══╝  ██║███╗██║
+    ██║ ╚═╝ ██║██║  ██║██████╔╝    ╚██████╗██║  ██║███████╗╚███╔███╔╝
+    ╚═╝     ╚═╝╚═╝  ╚═╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚══════╝ ╚══╝╚══╝ 
+                     
+                        CODED BY COLAK 
+                  INSTAGRAM : @colak.offical
+
+                                            "
+    echo -e "${LIGHTBLUE}        [1]${WHITE}LAYER 7 SCRIPT${LIGHTBLUE} " 
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [2]${WHITE}LAYER 4 SCRIPT${LIGHTBLUE}   "
+    echo -e ""
+    echo -e "${LIGHTBLUE}        [3]${WHITE}EXTRA ${RED}PROXY ATTACKER${LIGHTBLUE}   "
+    echo -e ""
+    echo -n -e "${RED}root@COLAK${WHITE}:${LIGHTBLUE}~/Desktop/M3d-Tool${WHITE}# "
+    read yourch
+    case $yourch in
+      1) layer7 ;;
+      2) layer4 ;;
+      3) extra ;;
+      ex) echo "As you Command" ;  exit 1  ;;
+      *) echo "HATALI RAKAM GIRDINIZ" ;
+         echo "Enter Basarak Menuye Dönebilirsiniz . . ." ; read ;;
+ esac
+done # end_while
+}
+#
+# Set trap to for CTRL+C interrupt i.e. Install our error handler
+# When occurs it first it calls del_file() and then exit
+#
+trap exit_script 2
+#
+# Call our user define function : Take_input1
+#
+Take_input1
+
